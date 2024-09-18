@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Tell Jenkins to use Maven installed on the Jenkins instance
-        maven 'Maven_3.8.1'  // Make sure your Jenkins has Maven installed and named appropriately
+        maven 'maven-latest'  // Make sure your Jenkins has Maven installed and named appropriately
     }
 
     environment {
